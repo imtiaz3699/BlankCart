@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className='w-full flex flex-col justify-center items-center'>
       <AppLayout>
-        <div className='w-full flex flex-col gap-[70px] px-2 md:px-5'>
+        <div className='w-full flex flex-col gap-[30px] md:gap-[50px] lg:gap-[70px] px-2 md:px-5'>
           <HeroSection />
           <BestDeals/>
         </div>
