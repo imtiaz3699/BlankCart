@@ -75,7 +75,7 @@ function BestDeals() {
         <div className=' w-full h-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 '>
           {
             data?.map((element, idx) => {
-              return <div className= 'sm:max-w-[248px] w-full py-[19px] px-[16px] flex flex-col items-start justify-center gap-[8px] border-t-[1px] lg:border-t-0 border-r-[1px] border-[1px] border-[#E4E7E9]'>
+              return <div className= 'sm:max-w-[248px] w-full py-[20px] px-[16px] flex flex-col items-start justify-center gap-[8px] border-t-[1px] lg:border-t-0 border-r-[1px] border-[1px] border-[#E4E7E9]'>
                 <div className='h-[188px] w-full'>
                   <img src='/fladjsfk.png' />
                 </div>

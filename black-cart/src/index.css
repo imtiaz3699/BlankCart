@@ -67,3 +67,53 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+.swiper-button-prev{
+  width: 48px;
+  height: 48px;
+  background-color:#FA8232;
+  border-radius: 100%;
+
+}
+.mySwiper{
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper{
+  width: 100% !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 48px !important;
+  height: 48px !important;
+  background-color: #FA8232;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important; /* Arrow size */
+  font-weight: bold;
+  color: white; /* Arrow color */
+  width: auto;
+  height: auto;
+}
+
+.swiper-button-next {
+  right: -24px; /* Adjust position as needed */
+}
+
+.swiper-button-prev {
+  left: -24px; /* Adjust position as needed */
+}
+
